@@ -1,0 +1,29 @@
+If you need to call special attention to a quote from another source, or design a pull quote for a magazine article, then Markdown's blockquote syntax will be useful. A blockquote is a sentence or paragraph that's been specially formatted to draw attention to the reader. For example:
+
+"The sin of doing nothing is the deadliest of all the seven sins. It has been said that for evil men to accomplish their purpose it is only necessary that good men should do nothing."
+
+To create a block quote, all you have to do is preface a line with the "greater than" caret (>). For example:
+
+> "In a few moments he was barefoot, his stockings folded in his pockets and his
+  canvas shoes dangling by their knotted laces over his shoulders and, picking a
+  pointed salt-eaten stick out of the jetsam among the rocks, he clambered down
+  the slope of the breakwater."
+
+You can also place a caret character on each line of the quote. This is particularly useful if your quote spans multiple paragraphs. For example:
+
+> His words seemed to have struck some deep chord in his own nature. Had he spoken
+of himself, of himself as he was or wished to be? Stephen watched his face for some
+moments in silence. A cold sadness was there. He had spoken of himself, of his own
+loneliness which he feared.
+>
+> —Of whom are you speaking? Stephen asked at length.
+>
+> Cranly did not answer.
+Notice that even blank lines must contain the caret character. This ensures that the entire blockquote is grouped together.
+
+In the box below, Make the entire quotation a block quote by inserting a caret on each line.
+
+
+Block quotes can contain other Markdown elements, such as italics, images, or links.
+
+In the box below, make the French text italic (not including the exclamation point). Also, turn the entire quote into a blockquote.
