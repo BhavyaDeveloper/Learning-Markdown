@@ -1,0 +1,111 @@
+This tutorial is all about creating lists in Markdown.
+
+There are two types of lists in the known universe: unordered and ordered. That's a fancy way of saying that there are lists with bullet points, and lists with numbers.
+
+To create an unordered list, you'll want to preface each item in the list with an asterisk ( * ). Each list item also gets its own line. For example, a grocery list in Markdown might look like this:
+
+* Milk
+* Eggs
+* Salmon
+* Butter
+
+
+An ordered list is prefaced with numbers, instead of asterisks. Take a look at this recipe:
+
+Crack three eggs over a bowl
+Pour a gallon of milk into the bowl
+Rub the salmon vigorously with butter
+Drop the salmon into the egg-milk bowl
+To write that in Markdown, you'd do this:
+
+1. Crack three eggs over a bowl
+2. Pour a gallon of milk into the bowl
+3. Rub the salmon vigorously with butter
+4. Drop the salmon into the egg-milk bowl
+
+
+You can choose to add italics, bold, or links within lists, as you might expect. In the box below, turn the Latin names for the plants into italics.
+
+
+Occasionally, you might find the need to make a list with more depth, or, to nest one list within another. Have no fear, because the Markdown syntax is exactly the same. All you have to do is to remember to indent each asterisk one space more than the preceding item.
+
+For example, in the following list, we're going to add some sub-lists to each "main" list item, describing the people in detail:
+
+* Tintin
+ * A reporter
+ * Has poofy orange hair
+ * Friends with the world's most awesome dog
+* Haddock
+ * A sea captain
+ * Has a fantastic beard
+ * Loves whiskey
+   * Possibly also scotch?
+
+
+
+
+When rendered, this list turns into the following grouping:
+
+Tintin
+A reporter
+Has poofy orange hair
+Friends with the world's most awesome dog
+Haddock
+A sea captain
+Has a fantastic beard
+Loves whiskey
+Possibly also scotch?
+
+
+There's one more trick to lists and indentation that we'll explore, and that deals with the case of paragraphs. Suppose you want to create a bullet list that requires some additional context (but not another list). For example, it might look like this:
+
+Crack three eggs over a bowl.
+
+Now, you're going to want to crack the eggs in such a way that you don't make a mess.
+
+If you do make a mess, use a towel to clean it up!
+
+Pour a gallon of milk into the bowl.
+
+Basically, take the same guidance as above: don't be messy, but if you are, clean it up!
+
+Rub the salmon vigorously with butter.
+
+By "vigorous," we mean a strictly vertical motion. Julia Child once quipped:
+
+Up and down and all around, that's how butter on salmon goes.
+
+Drop the salmon into the egg-milk bowl.
+
+Here are some techniques on salmon-dropping:
+
+Make sure no trout or children are present
+Use both hands
+Always have a towel nearby in case of messes
+To create this sort of text, your paragraph must start on a line all by itself underneath the bullet point, and it must be indented by at least one space. For example, the list above looks like this in Markdown:
+
+1. Crack three eggs over a bowl.
+
+ Now, you're going to want to crack the eggs in such a way that you don't make a mess.
+
+ If you _do_ make a mess, use a towel to clean it up!
+
+2. Pour a gallon of milk into the bowl.
+
+ Basically, take the same guidance as above: don't be messy, but if you are, clean it up!
+
+3. Rub the salmon vigorously with butter.
+
+   By "vigorous," we mean a strictly vertical motion. Julia Child once quipped:
+   > Up and down and all around, that's how butter on salmon goes.
+4. Drop the salmon into the egg-milk bowl.
+
+   Here are some techniques on salmon-dropping:
+
+   * Make sure no trout or children are present
+   * Use both hands
+   * Always have a towel nearby in case of messes
+  
+Notice that the first two items have a single space. This looks a bit odd, so you might want to indent properly to match the characters up (like items three and four). In these paragraphs, you can include all sorts of other Markdown elements, like blockquotes, or even other lists!
+
+
